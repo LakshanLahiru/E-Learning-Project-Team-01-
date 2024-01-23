@@ -1,0 +1,71 @@
+.testimonal .items {
+    padding: 30px;
+    transition: 0.5s;
+}
+
+.testimonal .img {
+    position: relative;
+}
+
+.testimonal img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.testimonal i {
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    background-color: #1eb2a6;
+    color: #0e0d0d;
+}
+
+.testimonal .name {
+    margin: 25px;
+    
+}
+
+.testimonal .name h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.testimonal .name span {
+    color: #1eb2a6;
+}
+
+.testimonal p {
+    margin-top: 20px;
+    color: rgb(20, 20, 20);
+    transition: 0.5s;
+    padding: 10px 20px;
+    
+}
+
+.testimonal .items:hover {
+    background-color: #1eb2a6;
+    color: #fff;
+    cursor: pointer;
+}
+
+.testimonal .items:hover p,
+.testimonal .items:hover span {
+    color: #fff;
+}
+
+.testimonal .items:hover i {
+    background-color: #fff;
+    color: #1eb2a6;
+}
+.imgTest{
+    padding-left: 25%;
+    padding-top: 15px;
+}
+.name{
+    padding-left: 20%;
+}
+.name span{
+    color: black;
+}

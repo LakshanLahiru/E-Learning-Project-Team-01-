@@ -1,0 +1,79 @@
+.features .items {
+    padding: 30px;
+    transition: 0.5s;
+}
+.itemshadow{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 3px 3px black;
+    transition: 0.5s;
+    color: #1d1c1c;
+}
+.itemshadow:hover{
+    background-color: #05dfbe;
+    border-radius: 20px;
+    box-shadow: 0 3px 3px rgb(2, 78, 31);
+    cursor: pointer;
+}
+.features i {
+    position: absolute;
+    bottom: 10px;
+    left: 60px;
+    background-color: #b2b21e;
+    color: #0e0d0d;
+}
+
+.features .name {
+    margin: 25px;
+}
+
+.features .name h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: rgb(24, 23, 23);
+    text-align: row;
+}
+.features .name:hover h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: rgb(58, 55, 55);
+}
+
+.features .name span {
+    color: #1eb2a6;
+}
+
+.features p {
+    margin: 5px 30px;
+    color: rgb(70, 68, 68);
+    transition: 0.5s;
+    text-align: justify;
+}
+.features :hover p{
+    color: #030303;
+}
+.primarybt{
+    
+    margin-left: 20%;
+    margin-bottom: 10%;
+    background-color: rgb(9, 171, 171);
+    color: #fff;
+    margin-top: 10%;
+}
+.features .items:hover {
+    background-color: #1eb2a6;
+    color: #fff;
+    cursor: pointer;
+}
+
+.features .items:hover p,
+.features .items:hover i
+.features .items:hover span {
+    color: #fff;
+}
+.name1{
+    
+   padding:20px 100px;
+    
+
+}

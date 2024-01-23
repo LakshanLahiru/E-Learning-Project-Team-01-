@@ -1,0 +1,34 @@
+.web_topic_h2{
+    /* font-family: 'Nunito'; */
+    font-family: 'Dancing Script', cursive;
+
+
+}
+
+.web_topic_h3{
+    font-family: 'Lucida Sans', Geneva;
+    padding-left: 20px;
+}
+
+.web_topic_p{
+    font-family: cursive;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.img_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.web_design_img2{
+    width: 75%;
+    height: 250;
+    margin: 20px 0;
+}
+
+.web_design_a{
+    margin: 10px;
+}
